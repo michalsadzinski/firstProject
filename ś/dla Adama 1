@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Make your Website Responsive</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    
+	</head>
+	<body>
+<!--Header-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<img src="https://placeholdit.imgix.net/~text?txtsize=8&txt=150%C3%9730&w=150&h=30" alt="logo">
+					<ul class="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Feature</a></li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+			</div>	
+		</div>
+	</header>
+	<section class="welcome">
+		 <div class="slogan">
+			<h1>Here you can type your company slogan</h1>	
+		</div>
+	</section>
+	<section class="benefits">
+		<div class="container">
+			<div class="row">
+				<div class="benefits1 col-4 col-s-12">
+					<a href="#">
+						<i class="fa fa-search"></i>
+						<h2>Reasearch</h2>	
+					</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                     labore et dolore magna aliqua.</p>
+				</div>
+				<div class="benefits1 col-4 col-s-12">
+					<a href="#">
+						<i class="fa fa-laptop"></i>
+						<h2>Fully Customizable</h2>	
+					</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                     labore et dolore magna aliqua.</p>
+				</div>
+				<div class="benefits1 col-4 col-s-12">
+					<a href="#">
+						<i class="fa fa-briefcase"></i>
+						<h2>Work and work</h2>	
+					</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                   labore et dolore magna aliqua.</p>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="feature">
+		<div class="container">
+			<div class="row">
+				<div class="col-offset-2 col-8 col-offset-s-0 col-s-12">
+					<h3>featured works</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						</p>	
+				</div>
+			</div>
+		</div>	
+	</section>
+<!--gallery-->
+	<section class="gallery">
+		<div class="row">
+			<div class="col-6 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/AGEgF5B.jpg" alt="foto1">
+			</div>
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/7Ff7rDB.jpg" alt="foto2">
+			</div>
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/KUt6tGb.jpg" alt="foto3">
+			</div>
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/Ue2tUMV.jpg" alt="photo4">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/AGEgF5B.jpg" alt="foto1">
+			</div>
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="https://i.imgur.com/7Ff7rDB.jpg" alt="foto2" alt="foto2">
+			</div>
+			<div class="col-2 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo.jpg" alt="photo">
+			</div>
+			<div class="col-6 col-s-12">
+				<div class="layer">
+					<i class="fa fa-link fa-lg"></i>
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo-167200.jpg" alt="photo">
+			</div>
+		</div>
+	</section>
+	<section class="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-3 col-m-6 col-s-12">
+					<div class="circle">
+						<div class="circle-layer">
+							<h3>Teddybear</h3>
+						</div>
+						<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo-207906.jpg" alt="photo">
+					</div>
+					<h2>Imię Nazwisko</h2>
+				</div>
+				<div class="col-3 col-m-6 col-s-12">
+					<div class="circle">
+						<div class="circle-layer">
+							<h3>Super Mario</h3>
+						</div>
+						<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo-120222.jpg" alt="photo">
+					</div>
+					<h2>Imię Nazwisko</h2>
+				</div>	
+				<div class="col-3 col-m-6 col-s-12">
+					<div class="circle">
+						<div class="circle-layer">
+							<h3>Dino</h3>
+						</div>
+						<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo-127618.jpg" alt="photo">
+					</div>
+					<h2>Imię Nazwisko</h2>
+				</div>	
+				<div class="col-3 col-m-6 col-s-12">
+					<div class="circle">
+						<div class="circle-layer">
+							<h3>Mickey Mouse</h3>
+						</div>
+						<img src="http://metalmaster.com.pl/images/web/kodilla/pexels-photo-42415.jpg" alt="photo">
+					</div>
+					<h2>Imię Nazwisko</h2>
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+<!--picture-->
+	<section class="picture">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-s-12">
+					<img src="http://www.captatio.pl/wp-content/uploads/2013/10/quick-office-on-tablet.png" alt="photo">
+				</div>
+				<div class="col-8 col-s-12">
+					<h4>Your awesome title</h4>
+						<div class="col-8 col-s-6">
+			               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
+					
+						</div>
+						<div class="col-4 col-s-6">
+							<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua.</i></p>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--numbers-->
+
+	<section class="numbers">
+		<div class="container">
+			<div class="row">
+				<div class="col-3 col-s-6">
+					<h5>455</h5>
+					<h4>fallowers</h4>
+				</div>
+				<div class="col-3 col-s-6">
+					<h5>1991</h5>
+					<h4>since</h4>
+				</div>	
+				<div class="col-3 col-s-6">
+					<h1>806</h1>
+						<h4>happy clients</h4>
+				</div>	
+				<div class="col-3 col-s-6">
+					<h1>923</h1>
+						<h4>projects</h4>
+				</div>	
+			</div>
+		</div>	
+	</section>
+
+<!--contact-->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-m-6 col-s-12">	
+						<h3>about us</h3>
+					<div class="col-12">	
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-4  col-m-6 col-s-12">	
+						<h3>get in touch</h3>
+					<div class="row">
+						<div class="col-3 col-m-6">
+							<h4>Address:</h4>
+						</div>
+						<div class="col-9 col-m-6">
+							<p>66 South Street,<br> Window 6 Wonderland</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 col-m-6">
+							<h4>Phone:</h4>
+						</div>
+						<div class="col-9 col-m-6">
+							<p>+440 875369208 - Office<br>
+							+440 352233987 - Fax<p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 col-m-6">
+							<h4>Email:</h4>
+						</div>
+						<div class="col-9 col-m-6">
+							<p>freepik@sitename.com
+						</div>
+					</div>
+				</div>
+				<div class="col-4 col-m-12 col-s-12">	
+						<h3>social media</h3>
+					<div class="col-12">	
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<div class="social">
+							<a href="#"><i class="fa fa-youtube"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- Footer-->
+	<footer>
+		<p>Copyrights 2017</p>
+	</footer>
+	
+</body>
+</html>
+
+	
+	
+	
+	

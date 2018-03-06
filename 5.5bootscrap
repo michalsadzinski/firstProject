@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>Bootstrap Example</title>
+  		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  		<link rel="stylesheet" type="text/css" href="style.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+  		<nav class="navbar navbar-inverse container">
+    		<div class="container-fluid">
+      			<div class="navbar-header">
+        			<a class="navbar-brand" href="#">Need for Speed</a>
+      			</div>
+      			<ul class="nav navbar-nav">
+        			<li><a href="#">Home</a></li>
+    				<li><a href="#">Typy Samochodów</a></li>
+        			<li><a href="#">Opinie</a></li>
+        			<li><a href="#">Nasi Dostawcy</a></li>
+      			 </ul>
+			     <form class="navbar-form navbar-right" action="/action_page.php">
+        			<div class="form-group">
+          				<input type="text" class="form-control" placeholder="Szukaj" name="search">
+        			</div>
+        			<button type="submit" class="btn btn-default">Wyślij</button>
+      			</form>
+    		</div>
+  		</nav>
+  		<section>
+    		<div class="container jumbotron">
+      			<h1>Samochody Premium <small>- powyżej 100 000 pln</small></h1>
+      			<button class="btn btn-primary">Mam 18 lat</button>
+    		</div>
+    	</section>
+  		<section>
+    		<div class="container">
+      			<h2>Szybkie Samochody</h2>
+      		<div class="container">
+        		<div class="row">
+          			<div class="col-md-3 col-sm-6 col-xs-12">
+          				<img src="http://www.dhresource.com/200x200s/f2-albu-g4-M00-09-93-rBVaEFf55HKAckGbAAPwJuATEro349.jpg/diecast-model-vw-beetle-pink-1-24-alloy-car.jpg" alt="photo1">
+          			</div>
+          			<div class="col-md-3 col-sm-6 col-xs-12">
+          				<img src="http://www.dhresource.com/200x200s/f2-albu-g4-M00-09-93-rBVaEFf55HKAckGbAAPwJuATEro349.jpg/diecast-model-vw-beetle-pink-1-24-alloy-car.jpg" alt="photo2">
+          			</div>
+          			<div class="col-md-3 col-sm-6 col-xs-12">
+          				<img src="http://www.dhresource.com/200x200s/f2-albu-g4-M00-09-93-rBVaEFf55HKAckGbAAPwJuATEro349.jpg/diecast-model-vw-beetle-pink-1-24-alloy-car.jpg" alt="photo1">
+          			</div>
+          			<div class="col-md-3 col-sm-6 col-xs-12">
+          				<img src="http://www.dhresource.com/200x200s/f2-albu-g4-M00-09-93-rBVaEFf55HKAckGbAAPwJuATEro349.jpg/diecast-model-vw-beetle-pink-1-24-alloy-car.jpg" alt="photo1"> 
+          			</div>
+        		</div>
+      		</div>
+    		</div>
+		</section>
+  		<section>
+    		<div class="container">
+      			<table class="table">
+        			<thead>
+          				<tr>
+            				<th>Nazwa</th>
+            				<th>Moc</th>
+            				<th>Pojemność</th>
+          				</tr>
+        			</thead>
+        			<tbody>
+          				<tr>
+            				<td>Audi</td>
+            				<td>300 KM</td>
+            				<td>3,5 L</td>
+          				</tr>
+          				<tr>
+            				<td>Mercedes</td>
+            				<td>350 KM</td>
+            				<td>4 L</td>
+          				</tr>
+          				<tr>
+            				<td>Jaguar</td>
+            				<td>400 KM</td>
+            				<td>5 L</td>
+          				</tr>
+          				<tr>
+            				<td>BMW</td>
+            				<td>450 KM</td>
+            				<td>5 L</td>
+          				</tr>
+        			</tbody>
+      			</table>
+    		</div>
+		</section>
+  		<section class="last-margin">
+    		<div class="container">
+      			<h3>Napisz do nas!</h3>
+      			<form>
+        			<label for="exampleFormControlTextarea1">Twoje imię i nazwisko:</label>
+        	<div class="row">
+          		<div class="col">
+            		<input type="text" class="form-control" placeholder="Imię">
+          	</div>
+          		<div class="col">
+            		<input type="text" class="form-control" placeholder="Nazwisko">
+          		</div>
+        	</div>
+        	<div class="form-group">
+          		<label for="exampleInputEmail1">Twój adres mailowy:</label>
+          		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="@mail">
+          		<small id="emailHelp" class="form-text text-muted">Zgoda na przesyłanie ofert handlowych.</small>
+        	</div>
+        	<div class="form-group">
+          		<label for="exampleFormControlTextarea1">Treść Twojej wiadomości:</label>
+          		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        	</div>
+        		<button type="submit" class="btn btn-primary">Wyślij</button>
+      			</form>
+    		</div>
+  		</section>
+  		<section>
+  			<div id="carousel-example-generic2" class="carousel slide">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+    				<li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+    				<li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+    				<li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+    				<li data-target="#carousel-example-generic2" data-slide-to="4"></li>
+  				</ol>
+  			<div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1280x500" alt="">
+      <!-- Opis slajdu -->
+      <div class="carousel-caption">
+        <h3>To jest opis</h3>
+        <p>pierwszego slajdu</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://placehold.it/1280x500" alt="">
+      <!-- Opis slajdu -->
+      <div class="carousel-caption">
+        <h3>To jest opis</h3>
+        <p>drugiego slajdu</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://placehold.it/1280x500" alt="">
+      <!-- Opis slajdu -->
+      <div class="carousel-caption">
+        <h3>To jest opis</h3>
+        <p>trzeciego slajdu</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1280x500" alt="">
+      <!-- Opis slajdu -->
+      <div class="carousel-caption">
+        <h3>To jest opis</h3>
+        <p>czwartego slajdu</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Strzałki do przewijania -->
+  <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+</div>
+		</section>
+	</body>
+</html>

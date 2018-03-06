@@ -1,0 +1,25 @@
+img {
+  width: 100%;
+}
+section {
+  margin-top: 50px;
+}
+.last-margin {margin-bottom: 50px;}
+ 
+.jumbotron {
+  background-image: url("http://8.s.dziennik.pl/pliki/10035000/10035190-toast-wodka-900-556.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -50px;
+  
+}
+html .jumbotron h1 {color: white;}
+html .jumbotron small {color: black;}
+html .jumbotron h2 {color: white;}
+
+.karuzela {height: 400px;
+width: auto;
+position: absolute;
+margin: 0 auto;} - /*nie działa - karuzela nie jest na środku*/
